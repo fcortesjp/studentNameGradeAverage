@@ -182,6 +182,7 @@ namespace studentNameGradeAverage
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("Este Programa pide las notas y nombre de n estudiantes y calcula el promedio \n");
             //obtenenmos el total de estudaintes a ingresar
             int studentsNumber = getNumberOfStudents();
             //obtenemos nombre y nota de cada estudiante
